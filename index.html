@@ -4,6 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>notate.js</title>
+    <script src="notate.js"></script>
+    <style>
+      img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto;
+      }
+      .notatejs-horizontal {
+        width: 100%;
+        height: auto;
+      }
+      .notatejs-vertical {
+        max-height: 500px;
+        width: auto;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <button onclick="notatejs()">notate.js</button>
+    <div>
+      <img src="img/1920x1080.jpg" class="notatejs" alt="1920x1080" />
+    </div>
+    <div>
+      <img src="img/1080x1920.jpg" class="notatejs" alt="1080x1920" />
+    </div>
+    <div>
+      <img src="img/900x600.jpg" class="notatejs" alt="900x600" />
+    </div>
+    <div>
+      <img src="img/600x900.jpg" class="notatejs" alt="600x900" />
+    </div>
+  </body>
 </html>
